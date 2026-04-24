@@ -1,7 +1,25 @@
-node_modules/
-dist/
-*.egg-info/
-__pycache__/
-.venv/
+# binaries
+*.exe
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+
+# test
+*.test
+*.out
+coverage.*
+/profile.out
+
+# deps
 vendor/
-*.pyc
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# env
+.env
